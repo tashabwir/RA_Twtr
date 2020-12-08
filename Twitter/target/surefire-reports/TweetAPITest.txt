@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: TweetAPITest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 0.321 sec <<< FAILURE!
+setUpTweetAPI(TweetAPITest)  Time elapsed: 0.242 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at base.TwitterAPIClient.<init>(TwitterAPIClient.java:36)
+	at tweets.TweetAPIClient.<init>(TweetAPIClient.java:12)
+	at TweetAPITest.setUpTweetAPI(TweetAPITest.java:16)
+
